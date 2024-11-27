@@ -48,4 +48,22 @@ The following test cases were automated using **Selenium**, **XPath**, and **Win
 ## 📚 **How to Run the Automation**  
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/Gourab-Pal/Wikipedia_Search_Automation.git
+   git clone https://github.com/Gourab-Pal/QA-Wikipedia_automation.git
+2. Install dependencies:  
+    - **Selenium WebDriver**  
+    - **ChromeDriver** (or your browser's driver)  
+
+3. Run the test scripts using your favorite IDE or CLI.  
+
+---
+
+## 📜 **Learn More About XFlix**  
+
+- [📘 XFlix Documentation](#) _([Project website](https://www.crio.do/learn/portfolio/gourab-pal-gpal/ME_XSEARCH2/))_  
+- [🌐 Live Website](#) _([Wikipedia website](https://www.wikipedia.org/))_  
+
+---
+
+
+
+
