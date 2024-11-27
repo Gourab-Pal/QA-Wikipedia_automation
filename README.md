@@ -38,7 +38,7 @@ The following test cases were automated using **Selenium**, **XPath**, and **Win
 
 ## 📸 **Snapshots of the Work**  
 ### **Wikipedia Homepage Automation**  
-![Homepage Automation](wikipedia_homepage.png)  
+![Homepage Automation](wikipedia_aut.png)  
 
 ### **Search Functionality in Action**  
 ![Search Automation](wikipedia_search.png)  
