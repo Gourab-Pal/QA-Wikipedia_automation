@@ -1,0 +1,192 @@
+{
+  "instruction_set":[
+    {
+      "description": "TestCase01.1: Ensure you are on the Wikipedia homepage with the correct URL",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "Navigate"
+        },
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "wikipedia"
+        }
+      ],
+      "error_out": "Navigate to Wikipedia website and verify the URL",
+      "hint": "Ensure you are on the Wikipedia homepage with the correct URL."
+    },
+    {
+      "description": "TestCase02.1: Ensure the page contains the heading 'Wikipedia' ",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "GetElementText"
+        },
+        {
+          "object_notation": "RESPONSE",
+          "operator": "contains",
+          "expected_value": "Wikipedia"
+        }
+      ],
+      "error_out": "Verify Wikipedia Header and Footer",
+      "hint": "Ensure the page contains the heading 'Wikipedia' "
+    },
+    {
+      "description": "TestCase02.2: Ensure the page contains the footer contains 'Terms of Use' and 'Privacy Policy'",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "GetElementText"
+        },
+        {
+          "object_notation": "RESPONSE",
+          "operator": "contains",
+          "expected_value": "Terms of Use"
+        }
+      ],
+      "error_out": "Verify Wikipedia Header and Footer",
+      "hint": "Ensure the page contains the footer contains 'Terms of Use' and 'Privacy Policy'."
+    },
+    {
+      "description": "TestCase02.3: Ensure the page contains the footer contains 'Terms of Use' and 'Privacy Policy'",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "GetElementText"
+        },
+        {
+          "object_notation": "RESPONSE",
+          "operator": "contains",
+          "expected_value": "Privacy Policy"
+        }
+      ],
+      "error_out": "Verify Wikipedia Header and Footer",
+      "hint": "Ensure the page contains the footer contains 'Terms of Use' and 'Privacy Policy'."
+    },
+    {
+      "description": "TestCase03.1: Ensure you are sending apple and you are clicking on Apple_Inc",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "apple"
+        },
+        {
+          "object_notation": "RESPONSE",
+          "operator": "contains",
+          "expected_value": "TypeElement"
+        }
+      ],
+      "error_out": "Search for 'Apple,' select a Apple_Inc",
+      "hint": "Ensure you are sending apple and you are clicking on Apple_Inc "
+    },
+    {
+      "description": "TestCase03.2: Ensure that 'Steve Jobs' in the founders list",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "GetElementText"
+        },
+        {
+          "object_notation": "RESPONSE",
+          "operator": "contains",
+          "expected_value": "Steve Jobs"
+        }
+      ],
+      "error_out": "check for 'Steve Jobs' in the founders list",
+      "hint": "Ensure that 'Steve Jobs' in the founders list"
+    },
+    {
+      "description": "TestCase04.1: Ensure you are on the Wikipedia homepage",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "Navigate"
+        },
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "wikipedia"
+        }
+      ],
+      "error_out": "Navigate to Wikipedia website",
+      "hint": "Ensure you are on the Wikipedia homepage"
+    },
+    {
+      "description": "TestCase04.2: Ensure you are sending microsot and you are clicking on Microsoft",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "microsoft"
+        },
+        {
+          "object_notation": "RESPONSE",
+          "operator": "contains",
+          "expected_value": "TypeElement"
+        }
+      ],
+      "error_out": "Search for 'Microsoft' and select Microsoft ",
+      "hint": "Ensure you are sending microsot and you are clicking on Microsoft "
+    },
+    {
+      "description": "TestCase04.3: Ensure you are clicking on the reference hyperlink",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "GetUrl"
+        },
+        {
+          "object_notation": "RESPONSE",
+          "operator": "contains",
+          "expected_value": "Bill_Gates"
+        }
+      ],
+      "error_out": "Click on 'Bill Gates' Hyperlink in the List of Founders and Verify the URL contains Bill_Gates",
+      "hint": "Ensure you are clicking on the reference hyperlink"
+    },
+    {
+      "description": "TestCase05.1: Ensure that you are navigating to Wikipedia English Name Page",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "wikipedia"
+        },
+        {
+          "object_notation": "RESPONSE",
+          "operator": "contains",
+          "expected_value": "Navigate"
+        }
+      ],
+      "error_out": "Navigate to Wikipedia English Main Page",
+      "hint": "Ensure that you are navigating to Wikipedia English Name Page"
+    },
+    {
+      "description": "TestCase05.2: Ensure that you are clicking on About Wikipedia in the dropdown and the URL contains About",
+      "validations": [
+        {
+          "object_notation": "COMMAND",
+          "operator": "contains",
+          "expected_value": "GetUrl"
+        },
+        {
+          "object_notation": "RESPONSE",
+          "operator": "contains",
+          "expected_value": "About"
+        }
+      ],
+      "error_out": "Verify the URL contains About ",
+      "hint": "Ensure that you are clicking on About Wikipedia in the dropdown and the URL contains About"
+    }
+  ]
+  }
+  

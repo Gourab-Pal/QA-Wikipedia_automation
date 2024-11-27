@@ -1,0 +1,306 @@
+[1729264973.904][INFO]: Starting ChromeDriver 130.0.6723.58 (3a50e012e4c9b8a410a4e2b12bf577e69ee8f755-refs/branch-heads/6723@{#1353}) on port 21828
+[1729264973.904][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1729264973.910][INFO]: ChromeDriver was started successfully on port 21828
+[1729264974.129][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "goog:loggingPrefs": {
+         "browser": "ALL",
+         "driver": "ALL"
+      }
+   }
+}
+[1729264974.129][INFO]: Browser search. Trying... C:\Users\goura\.cache\selenium\chromedriver\win64\130.0.6723.58\chrome.exe
+[1729264974.129][INFO]: Browser search. Trying... C:\Users\goura\.cache\selenium\chromedriver\win64\130.0.6723.58\chrome.exe
+[1729264974.129][INFO]: Browser search. Trying... C:\Users\goura\.cache\selenium\chromedriver\win64\130.0.6723.58\chromium.exe
+[1729264974.132][INFO]: Browser search. Trying... C:\Users\goura\AppData\Local\Google\Chrome\Application\chrome.exe
+[1729264974.132][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1729264974.132][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
+[1729264974.133][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1729264974.133][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1729264974.134][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1729264974.134][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1729264974.135][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\goura\AppData\Local\Temp\scoped_dir16780_1917502613" data:,
+[1729264974.778][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1729264974.789][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "130.0.6723.59",
+      "chrome": {
+         "chromedriverVersion": "130.0.6723.58 (3a50e012e4c9b8a410a4e2b12bf577e69ee8f755-refs/branch-heads/6723@{#1353})",
+         "userDataDir": "C:\\Users\\goura\\AppData\\Local\\Temp\\scoped_dir16780_1917502613"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55143"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "2266afeb55e299d17859e1ee0c68e4bd"
+}
+[1729264974.932][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND MaximizeWindow {
+}
+[1729264974.932][INFO]: Waiting for pending navigations...
+[1729264974.936][INFO]: Done waiting for pending navigations. Status: ok
+[1729264974.971][INFO]: Waiting for pending navigations...
+[1729264974.972][INFO]: Done waiting for pending navigations. Status: ok
+[1729264974.973][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE MaximizeWindow {
+   "height": 832,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1729264974.987][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND SetTimeouts {
+   "implicit": 30000
+}
+[1729264974.987][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE SetTimeouts
+[1729264975.006][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND Navigate {
+   "url": "https://www.wikipedia.org/"
+}
+[1729264975.007][INFO]: Waiting for pending navigations...
+[1729264975.008][INFO]: Done waiting for pending navigations. Status: ok
+[1729264975.416][INFO]: Waiting for pending navigations...
+[1729264975.936][INFO]: Done waiting for pending navigations. Status: ok
+[1729264975.936][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE Navigate
+[1729264975.941][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND GetUrl {
+}
+[1729264975.941][INFO]: Waiting for pending navigations...
+[1729264975.942][INFO]: Done waiting for pending navigations. Status: ok
+[1729264975.950][INFO]: Waiting for pending navigations...
+[1729264975.951][INFO]: Done waiting for pending navigations. Status: ok
+[1729264975.951][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE GetUrl "https://www.wikipedia.org/"
+[1729264975.966][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND Navigate {
+   "url": "https://www.wikipedia.org/"
+}
+[1729264975.966][INFO]: Waiting for pending navigations...
+[1729264975.968][INFO]: Done waiting for pending navigations. Status: ok
+[1729264976.080][INFO]: Waiting for pending navigations...
+[1729264976.217][INFO]: Done waiting for pending navigations. Status: ok
+[1729264976.217][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE Navigate
+[1729264976.237][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//h1/span"
+}
+[1729264976.237][INFO]: Waiting for pending navigations...
+[1729264976.239][INFO]: Done waiting for pending navigations. Status: ok
+[1729264976.261][INFO]: Waiting for pending navigations...
+[1729264976.262][INFO]: Done waiting for pending navigations. Status: ok
+[1729264976.262][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.B16A3055D79D4FE18D92DB5A82221E7C.d.17D7C8C24840CFA112A59F4FE9A48D3D.e.47"
+}
+[1729264976.272][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND GetElementText {
+   "id": "f.B16A3055D79D4FE18D92DB5A82221E7C.d.17D7C8C24840CFA112A59F4FE9A48D3D.e.47"
+}
+[1729264976.272][INFO]: Waiting for pending navigations...
+[1729264976.274][INFO]: Done waiting for pending navigations. Status: ok
+[1729264976.295][INFO]: Waiting for pending navigations...
+[1729264976.299][INFO]: Done waiting for pending navigations. Status: ok
+[1729264976.299][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE GetElementText "Wikipedia"
+[1729264976.311][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND FindElement {
+   "using": "link text",
+   "value": "Terms of Use"
+}
+[1729264976.311][INFO]: Waiting for pending navigations...
+[1729264976.316][INFO]: Done waiting for pending navigations. Status: ok
+[1729264976.379][INFO]: Waiting for pending navigations...
+[1729264976.380][INFO]: Done waiting for pending navigations. Status: ok
+[1729264976.380][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.B16A3055D79D4FE18D92DB5A82221E7C.d.17D7C8C24840CFA112A59F4FE9A48D3D.e.48"
+}
+[1729264976.382][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND GetElementText {
+   "id": "f.B16A3055D79D4FE18D92DB5A82221E7C.d.17D7C8C24840CFA112A59F4FE9A48D3D.e.48"
+}
+[1729264976.382][INFO]: Waiting for pending navigations...
+[1729264976.384][INFO]: Done waiting for pending navigations. Status: ok
+[1729264976.391][INFO]: Waiting for pending navigations...
+[1729264976.392][INFO]: Done waiting for pending navigations. Status: ok
+[1729264976.392][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE GetElementText "Terms of Use"
+[1729264976.401][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND FindElement {
+   "using": "link text",
+   "value": "Privacy Policy"
+}
+[1729264976.401][INFO]: Waiting for pending navigations...
+[1729264976.403][INFO]: Done waiting for pending navigations. Status: ok
+[1729264976.432][INFO]: Waiting for pending navigations...
+[1729264976.433][INFO]: Done waiting for pending navigations. Status: ok
+[1729264976.433][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.B16A3055D79D4FE18D92DB5A82221E7C.d.17D7C8C24840CFA112A59F4FE9A48D3D.e.49"
+}
+[1729264976.435][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND GetElementText {
+   "id": "f.B16A3055D79D4FE18D92DB5A82221E7C.d.17D7C8C24840CFA112A59F4FE9A48D3D.e.49"
+}
+[1729264976.435][INFO]: Waiting for pending navigations...
+[1729264976.436][INFO]: Done waiting for pending navigations. Status: ok
+[1729264976.448][INFO]: Waiting for pending navigations...
+[1729264976.449][INFO]: Done waiting for pending navigations. Status: ok
+[1729264976.449][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE GetElementText "Privacy Policy"
+[1729264976.458][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND Navigate {
+   "url": "https://www.wikipedia.org/"
+}
+[1729264976.458][INFO]: Waiting for pending navigations...
+[1729264976.462][INFO]: Done waiting for pending navigations. Status: ok
+[1729264976.569][INFO]: Waiting for pending navigations...
+[1729264976.673][INFO]: Done waiting for pending navigations. Status: ok
+[1729264976.673][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE Navigate
+[1729264977.688][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#searchInput"
+}
+[1729264977.688][INFO]: Waiting for pending navigations...
+[1729264977.689][INFO]: Done waiting for pending navigations. Status: ok
+[1729264977.697][INFO]: Waiting for pending navigations...
+[1729264977.698][INFO]: Done waiting for pending navigations. Status: ok
+[1729264977.698][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.B16A3055D79D4FE18D92DB5A82221E7C.d.F623356BEA24AFCD6CDE2A16122FFED9.e.63"
+}
+[1729264977.719][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND TypeElement {
+   "id": "f.B16A3055D79D4FE18D92DB5A82221E7C.d.F623356BEA24AFCD6CDE2A16122FFED9.e.63",
+   "text": "apple",
+   "value": [ "a", "p", "p", "l", "e" ]
+}
+[1729264977.719][INFO]: Waiting for pending navigations...
+[1729264977.720][INFO]: Done waiting for pending navigations. Status: ok
+[1729264977.780][INFO]: Waiting for pending navigations...
+[1729264977.783][INFO]: Done waiting for pending navigations. Status: ok
+[1729264977.783][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE TypeElement
+[1729264979.801][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//h3[@class='suggestion-title']"
+}
+[1729264979.801][INFO]: Waiting for pending navigations...
+[1729264979.802][INFO]: Done waiting for pending navigations. Status: ok
+[1729264979.810][INFO]: Waiting for pending navigations...
+[1729264979.811][INFO]: Done waiting for pending navigations. Status: ok
+[1729264979.811][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.B16A3055D79D4FE18D92DB5A82221E7C.d.F623356BEA24AFCD6CDE2A16122FFED9.e.93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.B16A3055D79D4FE18D92DB5A82221E7C.d.F623356BEA24AFCD6CDE2A16122FFED9.e.92"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.B16A3055D79D4FE18D92DB5A82221E7C.d.F623356BEA24AFCD6CDE2A16122FFED9.e.94"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.B16A3055D79D4FE18D92DB5A82221E7C.d.F623356BEA24AFCD6CDE2A16122FFED9.e.95"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.B16A3055D79D4FE18D92DB5A82221E7C.d.F623356BEA24AFCD6CDE2A16122FFED9.e.96"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.B16A3055D79D4FE18D92DB5A82221E7C.d.F623356BEA24AFCD6CDE2A16122FFED9.e.97"
+} ]
+[1729264979.817][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND GetElementText {
+   "id": "f.B16A3055D79D4FE18D92DB5A82221E7C.d.F623356BEA24AFCD6CDE2A16122FFED9.e.93"
+}
+[1729264979.817][INFO]: Waiting for pending navigations...
+[1729264979.818][INFO]: Done waiting for pending navigations. Status: ok
+[1729264979.825][INFO]: Waiting for pending navigations...
+[1729264979.826][INFO]: Done waiting for pending navigations. Status: ok
+[1729264979.826][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE GetElementText "Apple"
+[1729264979.828][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND GetElementText {
+   "id": "f.B16A3055D79D4FE18D92DB5A82221E7C.d.F623356BEA24AFCD6CDE2A16122FFED9.e.92"
+}
+[1729264979.828][INFO]: Waiting for pending navigations...
+[1729264979.829][INFO]: Done waiting for pending navigations. Status: ok
+[1729264979.835][INFO]: Waiting for pending navigations...
+[1729264979.836][INFO]: Done waiting for pending navigations. Status: ok
+[1729264979.836][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE GetElementText "Apple Inc."
+[1729264979.843][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] COMMAND ClickElement {
+   "id": "f.B16A3055D79D4FE18D92DB5A82221E7C.d.F623356BEA24AFCD6CDE2A16122FFED9.e.92"
+}
+[1729264979.843][INFO]: Waiting for pending navigations...
+[1729264979.844][INFO]: Done waiting for pending navigations. Status: ok
+[1729264979.879][INFO]: Waiting for pending navigations...
+[1729264980.150][INFO]: Done waiting for pending navigations. Status: ok
+[1729264980.150][INFO]: [2266afeb55e299d17859e1ee0c68e4bd] RESPONSE ClickElement
